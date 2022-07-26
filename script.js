@@ -85,6 +85,29 @@ $(document).ready(function () {
             }
         }
     });
+    $('.carousel-project').owlCarousel({
+        // margin: 20,
+        loop: true,
+        // autoWidth: true,
+        items: 5,
+        autoPlayTimeOut: 2000,
+        autoPlayTimePause: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            }
+            // 600: {
+            //     items: 3,
+            //     nav: false
+            // },
+            // 1000: {
+            //     items: 5,
+            //     nav: false
+            // }
+        }
+    });
 
     // AOS ANIMASI
 

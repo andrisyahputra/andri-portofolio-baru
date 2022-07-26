@@ -307,7 +307,7 @@ h1{
     position: relative;
     background-color: #198754;
     border-radius: 10px;
-    height: 500px;
+    height: 350px;
     /* overflow: hidden; */
     transform-style: preserve-3d;
 }
@@ -337,7 +337,7 @@ h1{
     font-weight: bold;
     left: 50%;
     transform: translate(-50%, 0);
-    top: 350px;
+    top: 270px;
     opacity: 0;
     text-align: center;
     transition: .5s;
@@ -380,6 +380,7 @@ h1{
     max-width: 200px;
     transition: .5s;
 }
+
 .skill-my:hover .skill-img{
     transform: translate3d(-50%,-52%,80px) scale(1.2);
 }
